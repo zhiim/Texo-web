@@ -133,10 +133,10 @@ async function onFileChange(newFile: File | null | undefined) {
 const loadTestImage = (() => {
   let idx = 0
   const urls = [
-    'assets/test_img/单行公式.png',
-    'assets/test_img/单行公式2.png',
-    'assets/test_img/多行公式.png',
-    'assets/test_img/多行公式2.jpg'
+    'assets/test_img/single-line-1.png',
+    'assets/test_img/single-line-2.png',
+    'assets/test_img/multi-line-1.png',
+    'assets/test_img/multi-line-2.jpg'
   ]
 
   return async function () {
