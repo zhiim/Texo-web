@@ -5,16 +5,7 @@ import { en, zh_cn } from '@nuxt/ui/locale'
 const { t, locale, setLocale } = useI18n()
 const route = useRoute()
 
-const items = computed<NavigationMenuItem[]>(() => [{
-  label: t('recognize'),
-  to: '/ocr',
-  active: route.path.startsWith('/ocr')
-}, {
-  label: t('comment'),
-  to: '/comment',
-  active: route.path.startsWith('/comment')
-}
-])
+const items = computed<NavigationMenuItem[]>(() => [])
 </script>
 
 <template>

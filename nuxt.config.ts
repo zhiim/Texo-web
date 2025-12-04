@@ -11,7 +11,7 @@ export default defineNuxtConfig({
     '@vite-pwa/nuxt'
   ],
 
-  ssr: true,
+  ssr: false,
   components: true,
 
   devtools: {
